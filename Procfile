@@ -1,1 +1,1 @@
-web: npm run dev --port=$PORT
+worker: npm run dev --port=$PORT
