@@ -1,1 +1,1 @@
-web: node ./src/App.jsx
+web: npm run dev
