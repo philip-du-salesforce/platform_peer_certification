@@ -11,7 +11,7 @@ const FeedbackCard = ({
   testimonial,
   name,
   role,
-  company,
+  vertical,
   image,
 }) => (
   <motion.div
@@ -29,7 +29,7 @@ const FeedbackCard = ({
             <span className='blue-text-gradient'>@</span> {name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {role}
+            {role} | {vertical}
           </p>
         </div>
 
