@@ -1,1 +1,1 @@
-worker: npm run dev --port=$PORT
+worker:node server.js
